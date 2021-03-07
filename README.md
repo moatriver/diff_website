@@ -22,4 +22,14 @@
 - sitedata.csv
     - 1列目 フォルダ名
     - 2列目 URL
-    - 4列目以降 diff実行結果のうち除外したい結果の指定 行数(a,d,cのどれか)行数 の形式
+    - 3列目以降 diff実行結果のうち除外したい結果の指定 行数(a,d,cのどれか)行数 の形式
+
+## JSON構造
+
+XXXX-XXXX-XXX-XXXXをslackアプリのAPIキーに書き換え
+
+```
+{
+    "slack_api" : "XXXX-XXXX-XXX-XXXX"
+}
+```
